@@ -1,0 +1,47 @@
+:root {
+  --primary: #44eabbe5;
+  --text: #080e2c;
+  --secondary: #d8e8e4;
+  --ternary: #f3fdfb;
+}
+
+html {
+  font-family: "Fira Sans", sans-serif;
+}
+
+body {
+  background-color: var(--ternary);
+  min-height: 100vh;
+}
+
+.content {
+  margin: 32px auto 0;
+  max-width: 1000px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__options > * {
+  margin-right: 8px;
+}
+
+.pill {
+  background: var(--secondary);
+  border-radius: 8px;
+  text-align: center;
+  padding: 6px 20px;
+}
+
+.pill--inactive {
+  opacity: 50%;
+}
