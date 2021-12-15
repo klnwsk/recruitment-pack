@@ -14,17 +14,23 @@
     />
     <title>Typing Playground</title>
   </head>
-  <body>
+  <body class="container">
+    <header class="header__container">
+      <div class="header__logo"><img src="assets/logo.svg" /></div>
+      <div class="header__options">
+        <p>time</p>
+        <div class="pill">15</div>
+        <div class="pill pill--inactive">30</div>
+      </div>
+    </header>
     <main class="content">
-      <header class="header__container">
-        <div class="header__logo"><img src="assets/logo.svg" /></div>
-        <div class="header__options">
-          <p>time</p>
-          <div class="pill">15</div>
-          <div class="pill pill--inactive">30</div>
-        </div>
-      </header>
-      <div></div>
+      <div class="button__container">
+        <div class="words"></div>
+        <button id="start-button" type="button" class="cta-button">
+          Start
+        </button>
+      </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
